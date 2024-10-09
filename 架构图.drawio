@@ -1,9 +1,72 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" version="24.7.17">
   <diagram name="第 1 页" id="xDNSWMq9TWSd1sU1FAXV">
-    <mxGraphModel>
+    <mxGraphModel dx="1409" dy="753" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="NDPMVfbr1IYfCNGHM8UL-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NDPMVfbr1IYfCNGHM8UL-2" target="NDPMVfbr1IYfCNGHM8UL-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NDPMVfbr1IYfCNGHM8UL-2" value="控制器" style="swimlane;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="20" y="210" width="800" height="190" as="geometry">
+            <mxRectangle x="20" y="210" width="71" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NDPMVfbr1IYfCNGHM8UL-3" value="信息熵" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="NDPMVfbr1IYfCNGHM8UL-2">
+          <mxGeometry x="59" y="117" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NDPMVfbr1IYfCNGHM8UL-4" value="自相似性检测" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="NDPMVfbr1IYfCNGHM8UL-2">
+          <mxGeometry x="239" y="117" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NDPMVfbr1IYfCNGHM8UL-5" value="限流策略" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="NDPMVfbr1IYfCNGHM8UL-2">
+          <mxGeometry x="419" y="117" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NDPMVfbr1IYfCNGHM8UL-6" value="过滤策略" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="NDPMVfbr1IYfCNGHM8UL-2">
+          <mxGeometry x="609" y="117" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NDPMVfbr1IYfCNGHM8UL-7" value="PCA" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="NDPMVfbr1IYfCNGHM8UL-2">
+          <mxGeometry x="59" y="37" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NDPMVfbr1IYfCNGHM8UL-8" value="通信交互图" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="NDPMVfbr1IYfCNGHM8UL-2">
+          <mxGeometry x="239" y="37" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NDPMVfbr1IYfCNGHM8UL-9" value="双层通信GNN" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="NDPMVfbr1IYfCNGHM8UL-2">
+          <mxGeometry x="419" y="37" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NDPMVfbr1IYfCNGHM8UL-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="NDPMVfbr1IYfCNGHM8UL-12" target="NDPMVfbr1IYfCNGHM8UL-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NDPMVfbr1IYfCNGHM8UL-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NDPMVfbr1IYfCNGHM8UL-12" target="NDPMVfbr1IYfCNGHM8UL-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NDPMVfbr1IYfCNGHM8UL-12" value="交换机" style="swimlane;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="20" y="470" width="800" height="150" as="geometry">
+            <mxRectangle x="20" y="470" width="71" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NDPMVfbr1IYfCNGHM8UL-13" value="流表" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="NDPMVfbr1IYfCNGHM8UL-12">
+          <mxGeometry x="60" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NDPMVfbr1IYfCNGHM8UL-14" value="限流策略" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="NDPMVfbr1IYfCNGHM8UL-12">
+          <mxGeometry x="334" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NDPMVfbr1IYfCNGHM8UL-15" value="过滤策略" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="NDPMVfbr1IYfCNGHM8UL-12">
+          <mxGeometry x="600" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NDPMVfbr1IYfCNGHM8UL-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="NDPMVfbr1IYfCNGHM8UL-17" target="NDPMVfbr1IYfCNGHM8UL-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NDPMVfbr1IYfCNGHM8UL-17" value="主机" style="swimlane;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="20" y="700" width="800" height="150" as="geometry">
+            <mxRectangle x="20" y="700" width="59" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NDPMVfbr1IYfCNGHM8UL-18" value="源主机" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="NDPMVfbr1IYfCNGHM8UL-17">
+          <mxGeometry x="203" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NDPMVfbr1IYfCNGHM8UL-19" value="目的主机" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="NDPMVfbr1IYfCNGHM8UL-17">
+          <mxGeometry x="477" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
