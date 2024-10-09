@@ -1,9 +1,140 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" version="24.7.17">
   <diagram name="第 1 页" id="Ts6JQI4yxHBuS3g7pLxs">
-    <mxGraphModel>
+    <mxGraphModel dx="1409" dy="753" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="qLsD8-3RKok0tZ890hiv-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qLsD8-3RKok0tZ890hiv-2" target="qLsD8-3RKok0tZ890hiv-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qLsD8-3RKok0tZ890hiv-2" value="数据流数据集" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="61.5" y="193" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qLsD8-3RKok0tZ890hiv-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qLsD8-3RKok0tZ890hiv-4" target="qLsD8-3RKok0tZ890hiv-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qLsD8-3RKok0tZ890hiv-4" value="提取目标IP特征" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="261.5" y="193" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qLsD8-3RKok0tZ890hiv-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qLsD8-3RKok0tZ890hiv-6" target="qLsD8-3RKok0tZ890hiv-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qLsD8-3RKok0tZ890hiv-6" value="计算数据集目标IP的&lt;div&gt;信息熵&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="461.5" y="193" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qLsD8-3RKok0tZ890hiv-7" value="输出信息熵" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="661.5" y="193" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qLsD8-3RKok0tZ890hiv-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qLsD8-3RKok0tZ890hiv-9" target="qLsD8-3RKok0tZ890hiv-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qLsD8-3RKok0tZ890hiv-9" value="数据流数据集" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="327" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qLsD8-3RKok0tZ890hiv-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qLsD8-3RKok0tZ890hiv-11" target="qLsD8-3RKok0tZ890hiv-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="362" y="357" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qLsD8-3RKok0tZ890hiv-11" value="提取数据包的长度" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="211" y="327" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qLsD8-3RKok0tZ890hiv-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qLsD8-3RKok0tZ890hiv-13" target="qLsD8-3RKok0tZ890hiv-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qLsD8-3RKok0tZ890hiv-13" value="选择自相似性度量方法R/S分析" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="362" y="327" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qLsD8-3RKok0tZ890hiv-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qLsD8-3RKok0tZ890hiv-15" target="qLsD8-3RKok0tZ890hiv-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qLsD8-3RKok0tZ890hiv-15" value="计算自相似度" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="509" y="327" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qLsD8-3RKok0tZ890hiv-16" value="输出自相似值" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="656" y="327" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qLsD8-3RKok0tZ890hiv-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qLsD8-3RKok0tZ890hiv-18" target="qLsD8-3RKok0tZ890hiv-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qLsD8-3RKok0tZ890hiv-18" value="数据流数据集" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="45.5" y="446" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qLsD8-3RKok0tZ890hiv-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qLsD8-3RKok0tZ890hiv-20" target="qLsD8-3RKok0tZ890hiv-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qLsD8-3RKok0tZ890hiv-20" value="数据预处理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="203.5" y="446" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qLsD8-3RKok0tZ890hiv-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qLsD8-3RKok0tZ890hiv-22" target="qLsD8-3RKok0tZ890hiv-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qLsD8-3RKok0tZ890hiv-22" value="提取目的IP的数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="361.5" y="446" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qLsD8-3RKok0tZ890hiv-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qLsD8-3RKok0tZ890hiv-24" target="qLsD8-3RKok0tZ890hiv-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qLsD8-3RKok0tZ890hiv-24" value="统计对应数据的数量" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="519.5" y="445" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qLsD8-3RKok0tZ890hiv-25" value="输出结果" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="678.5" y="445" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qLsD8-3RKok0tZ890hiv-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qLsD8-3RKok0tZ890hiv-27" target="qLsD8-3RKok0tZ890hiv-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qLsD8-3RKok0tZ890hiv-27" value="数据流数据集" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="55.5" y="585" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qLsD8-3RKok0tZ890hiv-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qLsD8-3RKok0tZ890hiv-29" target="qLsD8-3RKok0tZ890hiv-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qLsD8-3RKok0tZ890hiv-29" value="查询目的IP历史流量数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="206" y="585" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qLsD8-3RKok0tZ890hiv-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qLsD8-3RKok0tZ890hiv-31" target="qLsD8-3RKok0tZ890hiv-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qLsD8-3RKok0tZ890hiv-31" value="读取动态阈值规则" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="361.5" y="585" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qLsD8-3RKok0tZ890hiv-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qLsD8-3RKok0tZ890hiv-33" target="qLsD8-3RKok0tZ890hiv-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qLsD8-3RKok0tZ890hiv-33" value="计算当前数据流阈值" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="519.5" y="585" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qLsD8-3RKok0tZ890hiv-34" value="输出结果" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="684" y="585" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qLsD8-3RKok0tZ890hiv-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="qLsD8-3RKok0tZ890hiv-37" target="qLsD8-3RKok0tZ890hiv-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qLsD8-3RKok0tZ890hiv-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="qLsD8-3RKok0tZ890hiv-37" target="qLsD8-3RKok0tZ890hiv-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qLsD8-3RKok0tZ890hiv-37" value="公共数据流特征" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="807" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qLsD8-3RKok0tZ890hiv-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qLsD8-3RKok0tZ890hiv-39" target="qLsD8-3RKok0tZ890hiv-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qLsD8-3RKok0tZ890hiv-39" value="是否IP+端口维度" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="233" y="738" width="163" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qLsD8-3RKok0tZ890hiv-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qLsD8-3RKok0tZ890hiv-41" target="qLsD8-3RKok0tZ890hiv-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qLsD8-3RKok0tZ890hiv-41" value="是否IP维度" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="233" y="847" width="163" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qLsD8-3RKok0tZ890hiv-42" value="设置IP+端口维度过滤策略" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="475" y="747" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qLsD8-3RKok0tZ890hiv-43" value="设置IP维度过滤策略" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="475" y="857" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
